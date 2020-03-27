@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #ddd;
+}
+nav {
+	width: 80%;
+	height: 80px;
+	background: #fff;
+	margin: 50px 0;
+	float: right;
+}
+
+nav button {
+	height: 40px;
+	width: 40px;
+	background: #ddd;
+	border: none;
+	margin: 20px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+nav button:hover {
+	background: #7462f6;
+}
+
+/****** LIEN A GAUCHE *******/
+#lien {
+	width: 20%;
+	height: 810px;
+	background: #fff;
+	position: absolute;
+	margin-top: 50px;
+	border-right: 1px solid #ddd;
+}
+
+#lien .title a {
+	color: #7462f6;
+	margin: 20px 50px;
+	font-size: 30px;
+}
+
+#lien a {
+	color: #000;
+	display: flex;
+	padding: 10px 30px;
+	margin: 18px 0;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#lien a:hover {
+	border-left: 5px solid #7462f6;
+	transition: all 0.2s ease-in;
+}
+
+#lien .title .link {
+	border: none;
+}
+
+
+/******** SECTION MAIN ********/
+
+/***** CONTAINER 1 *****/
+#main {
+	width: 80%;
+	height: auto;
+	background: #ddd;
+	float: right;
+}
+
+#main .container-1 {
+	display: inline-flex;
+	text-align: center;
+	margin: 0 48px;
+}
+
+#main .container-1 div {
+	padding: 20px 80px;
+	margin: 0 10px;
+	border-radius: 10px;
+}
+
+.container-1 .box-1 {
+	background: linear-gradient(to right, #965cf6, #b58ef6);
+}
+
+.container-1 .box-2 {
+	background: linear-gradient(to right,#f899bd, #f56b9f);
+}
+
+.container-1 .box-3 {
+	background: linear-gradient(to right,#f9c780, #f8b454);
+}
+
+.container-1 .box-4 {
+	background: linear-gradient(#7462f6, #9c8ff7);
+}
+
+#main .container-1 p {
+	line-height: 20px;
+	color: #fff;
+}
+
+#main .container-1 .phrase {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#main .container-1 .number  {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/***** CONTAINER 2 *****/
+
+/**** box-1 ****/
+#main .container-2 {
+	display: inline-flex;
+	margin: 0 15px;
+}
+
+#main .container-2 > div {
+	background: #fff;
+	width: 310px;
+	height: 400px;
+	margin: 30px 20px;
+	border-radius: 10px;
+}
+
+#main .container-2 h5 {
+	color: #757478;
+	font-weight: bold;
+	padding: 20px 15px;
+}
+
+.container-2 .block > div {
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+#main .container-2 .block .number {
+	font-size: 22px;
+	padding: 10px 0; 
+}
+
+#main .container-2 .block .phrase {
+	font-size: 12px;	
+}
+
+#main .container-2 .inline {
+	margin: 150px 10px;
+}
+
+#main .container-2 .inline > div {
+	display: inline-flex;
+}
+
+#main .container-2 .inline div > p {
+	padding: 0 5px;
+}
+
+#main .container-2 .inline div > .rond-1 {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #965cf6;
+}
+
+#main .container-2 .inline div > .rond-2 {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #f56b9f;
+}
+
+
+/**** box-2 ****/
+#main .container-2  .sous-element > div {
+	padding: 5px 50px;
+	font-size: 15px;
+}
+
+#main .container-2  .sous-element div > p {
+	line-height: 25px;
+}
+
+#main .container-2  .sous-element div > .hour {
+	font-size: 12px;
+	color: #757478;
+}
+
+
+/**** box-3 ****/
+#main .container-2 .box-3 .text-center {
+	margin: 100px 0;
+	text-align: center;
+	font-size: 15px;
+}
+
+#main .container-2 .box-3 .mini-box > div {
+	display: inline-block;
+	text-align: center;
+	margin: 0 50px;
+}
+
+#main .container-2 .box-3 .mini-box .number{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#main .container-2 .box-3 .mini-box .phrase {
+	font-size: 13px;
+	padding: 15px 0;
+}
+
+#main .container-2 .box-3 .mini-box .rond-1 {
+	width: 25px;
+	height: 25px;
+	border-radius: 30px;
+	background-color: #965cf6;	
+}
+
+/***** CONTAINER 3 *****/
+#main .container-3 {
+	background: #fff;
+	height: 140px;
+	width: 94%;
+	padding: 0 30px;
+	margin: 0 35px;
+	border-radius: 10px;
+}
+
+#main .container-3 h5 {
+	padding: 30px 10px;
+}
+
+#main .container-3 button {
+	background: blue;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#main .container-3 button > span {
+	color: #fff;
+}
+
+#main .container-3 .search {
+	float: right;
+	padding: 10px 80px;
+}
+
+#main .container-3 form > input[type="search"] {
+	height: 25px;
+	border-radius: 5px;
+	border: none;
+}
